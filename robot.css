@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -60px; 
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.footer, .page-wrap:after {
+  height: 60px; 
+}
+.footer {
+  	background: #00baff;
+	width: 100%;
+}
+
+.footer .copy {
+	margin: 30px 10px 0px 10px;
+	float: right;
+}
+
+#content {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#header {
+	width: 100%;
+	height: 100px;
+	background-color: #008aff;
+}
+
+#title {
+	margin: 15px;
+	color: white;
+	font-size: 60px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;   
+}
+
+#logo {
+	margin: 25px;
+	width: 80px;
+	height: 50px;
+	float: left;
+}
